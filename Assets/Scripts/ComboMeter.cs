@@ -11,8 +11,7 @@ public class ComboMeter : MonoBehaviour
     public int killCount;
     public Text comboText;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         comboText.enabled = false;
     }
