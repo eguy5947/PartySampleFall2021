@@ -9,8 +9,10 @@ public class Potion : Item
     public int amount;
     public override void OnActivate()
     {
+        print(gameObject.name);
         health = GetComponent<HealthScript>();
-        health.hp += amount;
+        print(health == null);
+        health.OnHealthRestore(amount);
         Debug.Log("Restore Health");
     }
 }
