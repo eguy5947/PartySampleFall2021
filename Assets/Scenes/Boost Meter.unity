@@ -30371,7 +30371,7 @@ MonoBehaviour:
   - {fileID: 530112879}
   - {fileID: 1146565718}
   currentItems:
-  - {fileID: 4946459070888550500, guid: 6c79aa21ca0590c40b1061a7d9c055f4, type: 3}
+  - {fileID: 648992872112863940}
   - {fileID: 648992872112863941}
   - {fileID: 648992872112863942}
   - {fileID: 0}
@@ -30450,7 +30450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hp: 100
   dead: 0
-  maxHP: 0
+  maxHP: 100
   destroyOnDeath: 0
   destroyDelay: 0
   destroyRecord: 0
